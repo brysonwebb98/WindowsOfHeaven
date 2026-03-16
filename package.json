@@ -1,0 +1,25 @@
+{
+  "name": "windowsofheaven",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brysonwebb98/WindowsOfHeaven.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brysonwebb98/WindowsOfHeaven/issues"
+  },
+  "homepage": "https://github.com/brysonwebb98/WindowsOfHeaven#readme",
+  "dependencies": {
+    "vite": "^8.0.0"
+  }
+}
