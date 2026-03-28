@@ -1,0 +1,146 @@
+[
+  {
+    "Id": "1",
+    "NameWithoutBrand": "Elko Nevada",
+    "Name": "Elko Nevada",
+    "Image": "/images/elko_nv.webp",
+    "DescriptionHtmlSimple": "Elko Nevada LDS Temple",
+    "ListPrice": 375,
+    "FinalPrice": 375
+  },
+  {
+    "Id": "2",
+    "NameWithoutBrand": "Farmington New Mexico",
+    "Name": "Farmington New Mexico",
+    "Image": "/images/farmington_nm.webp",
+    "DescriptionHtmlSimple": "Farmington New Mexico LDS Temple",
+    "ListPrice": 390,
+    "FinalPrice": 390
+  },
+  {
+    "Id": "3",
+    "NameWithoutBrand": "Grand Junction Colorado",
+    "Name": "Grand Junction Colorado",
+    "Image": "/images/grand-junction_co.webp",
+    "DescriptionHtmlSimple": "Grand Junction Colorado LDS Temple",
+    "ListPrice": 395,
+    "FinalPrice": 395
+  },
+  {
+    "Id": "4",
+    "NameWithoutBrand": "Hong Kong China",
+    "Name": "Hong Kong China",
+    "Image": "/images/hong-kong_china.webp",
+    "DescriptionHtmlSimple": "Hong Kong China LDS Temple",
+    "ListPrice": 550,
+    "FinalPrice": 550
+  },
+  {
+    "Id": "5",
+    "NameWithoutBrand": "Layton Utah",
+    "Name": "Layton Utah",
+    "Image": "/images/layton_ut.webp",
+    "DescriptionHtmlSimple": "Layton Utah LDS Temple",
+    "ListPrice": 400,
+    "FinalPrice": 400
+  },
+  {
+    "Id": "6",
+    "NameWithoutBrand": "Lindon Utah",
+    "Name": "Lindon Utah",
+    "Image": "/images/lindon_ut.webp",
+    "DescriptionHtmlSimple": "Lindon Utah LDS Temple",
+    "ListPrice": 400,
+    "FinalPrice": 400
+  },
+  {
+    "Id": "7",
+    "NameWithoutBrand": "McAllen Texas",
+    "Name": "McAllen Texas",
+    "Image": "/images/mcallen_tx.webp",
+    "DescriptionHtmlSimple": "McAllen Texas LDS Temple",
+    "ListPrice": 410,
+    "FinalPrice": 410
+  },
+  {
+    "Id": "8",
+    "NameWithoutBrand": "Orem Utah",
+    "Name": "Orem Utah",
+    "Image": "/images/orem_ut.webp",
+    "DescriptionHtmlSimple": "Orem Utah LDS Temple",
+    "ListPrice": 390,
+    "FinalPrice": 390
+  },
+  {
+    "Id": "9",
+    "NameWithoutBrand": "Orlando Florida",
+    "Name": "Orlando Florida",
+    "Image": "/images/orlando_fl.webp",
+    "DescriptionHtmlSimple": "Orlando Florida LDS Temple",
+    "ListPrice": 425,
+    "FinalPrice": 425
+  },
+  {
+    "Id": "10",
+    "NameWithoutBrand": "Paris France",
+    "Name": "Paris France",
+    "Image": "/images/paris_france.webp",
+    "DescriptionHtmlSimple": "Paris France LDS Temple",
+    "ListPrice": 535,
+    "FinalPrice": 535
+  },
+  {
+    "Id": "11",
+    "NameWithoutBrand": "Payson Utah",
+    "Name": "Payson Utah",
+    "Image": "/images/payson_ut.webp",
+    "DescriptionHtmlSimple": "Payson Utah LDS Temple",
+    "ListPrice": 390,
+    "FinalPrice": 390
+  },
+  {
+    "Id": "12",
+    "NameWithoutBrand": "Rome Italy",
+    "Name": "Rome Italy",
+    "Image": "/images/rome_italy.webp",
+    "DescriptionHtmlSimple": "Rome Italy LDS Temple",
+    "ListPrice": 550,
+    "FinalPrice": 550
+  },
+  {
+    "Id": "13",
+    "NameWithoutBrand": "San Diego California",
+    "Name": "San Diego California",
+    "Image": "/images/san-diego_ca.webp",
+    "DescriptionHtmlSimple": "San Diego California LDS Temple",
+    "ListPrice": 450,
+    "FinalPrice": 450
+  },
+  {
+    "Id": "14",
+    "NameWithoutBrand": "Saratoga Springs Utah",
+    "Name": "Saratoga Springs Utah",
+    "Image": "/images/saratoga-springs_ut.webp",
+    "DescriptionHtmlSimple": "Saratoga Springs Utah LDS Temple",
+    "ListPrice": 400,
+    "FinalPrice": 400
+  },
+  {
+    "Id": "15",
+    "NameWithoutBrand": "Salt Lake City Utah",
+    "Name": "Salt Lake City Utah",
+    "Image": "/images/slc_ut.webp",
+    "DescriptionHtmlSimple": "Salt Lake City Utah LDS Temple",
+    "ListPrice": 450,
+    "FinalPrice": 450
+  },
+  {
+    "Id": "16",
+    "NameWithoutBrand": "Syracuse Utah",
+    "Name": "Syracuse Utah",
+    "Image": "/images/syracuse_ut.webp",
+    "DescriptionHtmlSimple": "Syracuse Utah LDS Temple",
+    "ListPrice": 395,
+    "FinalPrice": 395
+  }
+]

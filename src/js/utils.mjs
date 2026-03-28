@@ -39,3 +39,24 @@ export function loadHeaderFooter (){
     renderWithTemplate(headerTemplateFn, headerEl, null);
     renderWithTemplate(footerTemplateFn, footerEl, null);
 }
+
+export function getParam(param) {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    return urlParams.get(param);
+}
+
+export function getCartItems() {
+  return JSON.parse(localStorage.getItem("so-cart")) || [];
+}
+
+export function calculateCartTotal(cartItems) {
+  let total = 0;
+
+  cartItems.forEach((item) => {
+    total += parseFloat(item.FinalPrice) * (item.quantity || 1);
+  });
+
+  return total;
+}
+
