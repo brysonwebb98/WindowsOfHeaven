@@ -6,8 +6,8 @@ function renderCartContents() {
 
     if (cartItems.length === 0) {
         cartList.innerHTML = `
-            <p>Your cart is empty.</p>
-            <a href="/products/">Shop Here</a>`;
+            <p class="empty-cart">Your cart is empty.</p>
+            <a class="empty-cart-a" href="/products/">Shop Here</a>`;
         return;
     }
 
@@ -21,7 +21,7 @@ function renderCartContents() {
                 
                 <div class="cart-card__details">
                     <h2 class="card__name">${item.Name}</h2>
-                    <p class="cart-card__quantity">qty: 1</p>
+                    <p class="cart-card__quantity">qty: ${item.quantity}</p>
                     <p class="cart-card__price">$${item.FinalPrice}</p>
                     <button class="remove-button" data-id="${item.Id}">Remove</button>
                 </div>
@@ -44,9 +44,10 @@ function removeItemFromCart(productId) {
 
     cartItems = cartItems.filter((item) => item.Id != productId);
 
-    localStorage.setItem("so-cart", JSON.stringify(cartItems));
+    localStorage.setItem("woh-cart", JSON.stringify(cartItems));
 
     renderCartContents();
+    updateSubTotal();
 }
 
 function updateSubTotal() {

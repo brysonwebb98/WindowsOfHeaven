@@ -10,7 +10,7 @@ function renderProductDetails(product) {
 }
 
 function getCartItems() {
-    return JSON.parse(localStorage.getItem("so-cart")) || [];
+    return JSON.parse(localStorage.getItem("woh-cart")) || [];
 }
 
 function addProductToCart(product) {
@@ -27,12 +27,8 @@ function addProductToCart(product) {
         cartItems.push(product);
     }
     
-    localStorage.setItem("so-cart", JSON.stringify(cartItems));
+    localStorage.setItem("woh-cart", JSON.stringify(cartItems));
 }
-
-document.querySelector("#addToCart").addEventListener("click", () => {
-    addProductToCart(product);
-});
 
 document.addEventListener("DOMContentLoaded", async () => {
     loadHeaderFooter();
@@ -43,7 +39,18 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderProductDetails(product);
 
     const addToCartButton = document.querySelector("#addToCart");
+
     addToCartButton.addEventListener("click", () => {
         addProductToCart(product);
+
+        addToCartButton.textContent = "Product Added!";
+        addToCartButton.style.backgroundColor = "green";
+        addToCartButton.style.color = "white";
+
+        setTimeout(() => {
+            addToCartButton.textContent = "Add to Cart";
+            addToCartButton.style.backgroundColor = "";
+            addToCartButton.style.color = "";
+        }, 1500);
     })
 });

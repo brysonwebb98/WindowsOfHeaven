@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-    <header id="main-header"></header>    
+    <header id="main-header"></header>  
     <main>
-        <h1>Review Checkout Details</h1>
+        <h1 class="checkout-h1">Review Checkout Details</h1>
         <section class="checkout-container">
             <form class="checkout-form" id="checkoutForm">
                 <h2>Shipping Information</h2>
@@ -34,14 +34,14 @@
                 <input type="text" id="zip" name="zip" required>
 
                 <label for="country">Country</label>
-                <select id="country" name="country" required>
+                <select id="country" name="country" required class="country">
+                    <option value="">Select</option>
                     <option value="USA">USA</option>
                     <option value="Canada">Canada</option>
                     <option value="Mexico">Mexico</option>
-                    <option value="Other">Other</option>
                 </select>
 
-                <button type="submit">Submit Order</button>
+                <button type="submit" class="checkout-submit" href="../confirmation/">Submit Order</button>
             </form>
 
             <section class="order-summary">
@@ -52,6 +52,7 @@
             </section>
         </section>
     </main>
+    
     <footer id="main-footer"></footer>
 </body>
 </html>
